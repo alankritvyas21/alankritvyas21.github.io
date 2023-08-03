@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/alankritvyas21.github.io/static/css/main.cee546e3.css",
-    "main.js": "/alankritvyas21.github.io/static/js/main.31b73e0b.js",
-    "static/media/IMG_4035.png": "/alankritvyas21.github.io/static/media/IMG_4035.5b8a251f06c62ec7a542.png",
-    "static/media/Main.jpg": "/alankritvyas21.github.io/static/media/Main.12604345964360d4978c.jpg",
-    "static/media/Alankrit Vyas Resume.pdf": "/alankritvyas21.github.io/static/media/Alankrit Vyas Resume.dd310318cbcfb7043fa0.pdf",
-    "static/media/Contact.png": "/alankritvyas21.github.io/static/media/Contact.e6cb872cf16388385360.png",
-    "static/media/weather.jpg": "/alankritvyas21.github.io/static/media/weather.dec7d165a43cf755d07e.jpg",
-    "static/media/Todo.jpg": "/alankritvyas21.github.io/static/media/Todo.db79bcb3644062a4fe6e.jpg",
-    "index.html": "/alankritvyas21.github.io/index.html",
-    "main.cee546e3.css.map": "/alankritvyas21.github.io/static/css/main.cee546e3.css.map",
-    "main.31b73e0b.js.map": "/alankritvyas21.github.io/static/js/main.31b73e0b.js.map"
+    "main.css": "/static/css/main.cf072de7.css",
+    "main.js": "/static/js/main.77c18758.js",
+    "static/media/IMG_4035.png": "/static/media/IMG_4035.5b8a251f06c62ec7a542.png",
+    "static/media/Main.jpg": "/static/media/Main.12604345964360d4978c.jpg",
+    "static/media/Alankrit Vyas Resume.pdf": "/static/media/Alankrit Vyas Resume.dd310318cbcfb7043fa0.pdf",
+    "static/media/Contact.png": "/static/media/Contact.e6cb872cf16388385360.png",
+    "static/media/weather.jpg": "/static/media/weather.dec7d165a43cf755d07e.jpg",
+    "static/media/Todo.jpg": "/static/media/Todo.db79bcb3644062a4fe6e.jpg",
+    "index.html": "/index.html",
+    "main.cf072de7.css.map": "/static/css/main.cf072de7.css.map",
+    "main.77c18758.js.map": "/static/js/main.77c18758.js.map"
   },
   "entrypoints": [
-    "static/css/main.cee546e3.css",
-    "static/js/main.31b73e0b.js"
+    "static/css/main.cf072de7.css",
+    "static/js/main.77c18758.js"
   ]
 }
