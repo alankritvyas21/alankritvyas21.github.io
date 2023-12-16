@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8400906f.css",
-    "main.js": "/static/js/main.77c18758.js",
+    "main.css": "/static/css/main.38d6d07e.css",
+    "main.js": "/static/js/main.ef7209e0.js",
     "static/media/IMG_4035.png": "/static/media/IMG_4035.5b8a251f06c62ec7a542.png",
-    "static/media/Main.jpg": "/static/media/Main.12604345964360d4978c.jpg",
+    "static/media/Conov2.jpg": "/static/media/Conov2.f833fd5cb379c970e352.jpg",
     "static/media/Alankrit Vyas Resume.pdf": "/static/media/Alankrit Vyas Resume.dd310318cbcfb7043fa0.pdf",
     "static/media/Contact.png": "/static/media/Contact.e6cb872cf16388385360.png",
     "static/media/weather.jpg": "/static/media/weather.dec7d165a43cf755d07e.jpg",
     "static/media/Todo.jpg": "/static/media/Todo.db79bcb3644062a4fe6e.jpg",
     "index.html": "/index.html",
-    "main.8400906f.css.map": "/static/css/main.8400906f.css.map",
-    "main.77c18758.js.map": "/static/js/main.77c18758.js.map"
+    "main.38d6d07e.css.map": "/static/css/main.38d6d07e.css.map",
+    "main.ef7209e0.js.map": "/static/js/main.ef7209e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.8400906f.css",
-    "static/js/main.77c18758.js"
+    "static/css/main.38d6d07e.css",
+    "static/js/main.ef7209e0.js"
   ]
 }
