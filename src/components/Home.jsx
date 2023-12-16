@@ -54,14 +54,14 @@ const Home = () => {
                 <i className="uil uil-facebook"></i>
               </a>
 
-              <a
+              {/* <a
                 href="https://twitter.com/AlankritVyas"
                 className="home__social-icons"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="uil uil-twitter"></i>
-              </a>
+              </a> */}
             </div>
 
             <div className="home__data">
@@ -70,8 +70,7 @@ const Home = () => {
                 Web Developer and UI/UX Designer
               </h3>
               <p className="home__description">
-                Currently pursuing Computer and Communication Engineering at
-                Manipal University Jaipur
+               Jr. Software Engineer at Dusane Infotech India Pvt Ltd
               </p>
 
               <a href="#contact" className="button button--flex">

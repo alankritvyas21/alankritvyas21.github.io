@@ -13,6 +13,7 @@
 }
 
 .home__social {
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
@@ -45,7 +46,7 @@
 }
 
 .home__img {
-  background: url(../images/Main.jpg);
+  background: url(../images/Conov2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

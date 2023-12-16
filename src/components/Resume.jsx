@@ -29,6 +29,7 @@ const Resume2 = () => {
                 <em>Manipal University Jaipur</em>
               </p>
               <p>B.Tech (Computer and Communication Engineering)</p>
+              <p>Dean's List Excellence in Academics</p>
               <p>C.G.P.A: 8.24</p>
             </div>
             <div className="resume__item">
@@ -53,6 +54,14 @@ const Resume2 = () => {
           <div className="resume__column">
             <h3 className="resume__title">Professional Experience</h3>
             <div className="resume__item">
+              <h4>Jr. Software Engineer</h4>
+              <h5>Oct 2023 - Present</h5>
+              <p>
+                <em>Dusane Infotech India Pvt Ltd.</em>
+              </p>
+              <p>Front-End Developer</p>
+            </div>
+            <div className="resume__item">
               <h4>Web Development Intern</h4>
               <h5>Jan 2023 - July 2023</h5>
               <p>
@@ -68,8 +77,27 @@ const Resume2 = () => {
               </p>
               <p>Basic Banking Website</p>
             </div>
-            <h3 className="resume__title">Activities</h3>
+            <h3 className="resume__title">Certifications</h3>
+
             <div className="resume__item">
+              <p>
+                <em>Angular - The Complete Guide (2023)</em>
+              </p>
+              <p>
+                <em>Introduction to UI Design</em>
+              </p>
+              <p>
+                <em>Foundation of User Experince (UX) Design</em>
+              </p>
+              <p>
+                <em>Build you portfolio website with HTML and CSS</em>
+              </p>
+              <p>
+                <em>Introduction to Structured Query Language (SQL)</em>
+              </p>
+            </div> 
+
+            {/* <div className="resume__item">
               <h4>Treasurer</h4>
               <h5>May 2021 - May 2022</h5>
               <p>
@@ -78,8 +106,8 @@ const Resume2 = () => {
                   University
                 </em>
               </p>
-            </div>
-            <div className="resume__item">
+            </div> */}
+            {/* <div className="resume__item">
               <h4>Treasurer</h4>
               <h5>Jan 2022 - July 2022</h5>
               <p>
@@ -87,8 +115,8 @@ const Resume2 = () => {
                   Panacea: The Computer and Communication Engineering Club
                 </em>
               </p>
-            </div>
-            <div className="resume__item">
+            </div> */}
+            {/* <div className="resume__item">
               <h4>Finance and Registration Team</h4>
               <p>
                 <em>Cultural Night - Team Lead</em>
@@ -105,7 +133,7 @@ const Resume2 = () => {
               <p>
                 <em>Under 25</em>
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
