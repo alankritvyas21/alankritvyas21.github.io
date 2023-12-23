@@ -27,12 +27,26 @@ const Footer = () => {
           </ul>
 
           <div className="footer__social">
-            <a href="mailto:av3h.vyas@gmail.com" className="footer__social-link" target="_blank" rel="noopener noreferrer">
-              <i className="uil uil-google"></i>
+            <a
+              href="https://bento.me/alankritvyas"
+              className="footer__social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="uil uil-user-circle"></i>
             </a>
 
             <a
-              href="https://www.instagram.com/i_alanvyas/"
+              href="mailto:av3h.vyas@gmail.com"
+              className="footer__social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="uil uil-envelope-alt"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/alankritvyas/"
               className="footer__social-link"
               target="_blank"
               rel="noopener noreferrer"
@@ -65,15 +79,6 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <i className="uil uil-facebook"></i>
-            </a>
-
-            <a
-              href="https://twitter.com/AlankritVyas"
-              className="footer__social-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="uil uil-twitter"></i>
             </a>
           </div>
         </div>

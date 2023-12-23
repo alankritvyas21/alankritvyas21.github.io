@@ -13,7 +13,6 @@
 }
 
 .home__social {
-  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;

@@ -33,11 +33,11 @@ const About = () => {
                 <span className="about__subtitle">9 months</span>
               </div>
 
-              {/* <div className="about__box">
-                <i class="bx bx-list-check  about__icon"></i>
-                <h3 className="about__title">Completed</h3>
-                <span className="about__subtitle">4 Projects</span>
-              </div> */}
+              <div className="about__box">
+                <i class="bx bx-book-open  about__icon"></i>
+                <h3 className="about__title">Education</h3>
+                <span className="about__subtitle">Undergraduate</span>
+              </div>
 
               <div className="about__box">
                 <i class="bx bx-award about__icon"></i>

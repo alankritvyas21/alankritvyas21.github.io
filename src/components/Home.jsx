@@ -10,16 +10,25 @@ const Home = () => {
             <div className="home__img"></div>
             <div className="home__social">
               <a
+                href="https://bento.me/alankritvyas"
+                className="home__social-icons"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="uil uil-user-circle"></i>
+              </a>
+
+              <a
                 href="mailto:av3h.vyas@gmail.com"
                 className="home__social-icons"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="uil uil-google"></i>
+                <i className="uil uil-envelope-alt"></i>
               </a>
 
               <a
-                href="https://www.instagram.com/i_alanvyas/"
+                href="https://www.instagram.com/alankritvyas/"
                 className="home__social-icons"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,15 +62,6 @@ const Home = () => {
               >
                 <i className="uil uil-facebook"></i>
               </a>
-
-              {/* <a
-                href="https://twitter.com/AlankritVyas"
-                className="home__social-icons"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="uil uil-twitter"></i>
-              </a> */}
             </div>
 
             <div className="home__data">
@@ -70,7 +70,7 @@ const Home = () => {
                 Web Developer and UI/UX Designer
               </h3>
               <p className="home__description">
-               Jr. Software Engineer at Dusane Infotech India Pvt Ltd
+                Jr. Software Engineer at Dusane Infotech India Pvt Ltd
               </p>
 
               <a href="#contact" className="button button--flex">
