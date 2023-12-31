@@ -101,6 +101,18 @@
     .show-menu {
         top: 3rem;
         transform: translateY(0);
+        animation: slideDown .5s ease-in-out;
+    }
+
+    @keyframes slideDown {
+        0% {
+            transform: translateY(-100%);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+        
     }
 
     .nav__toggle {
