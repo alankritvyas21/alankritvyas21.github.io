@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f363151b.css",
-    "main.js": "/static/js/main.67ab075e.js",
+    "main.css": "/static/css/main.acd7018b.css",
+    "main.js": "/static/js/main.782e886a.js",
     "static/media/IMG_4035.png": "/static/media/IMG_4035.5b8a251f06c62ec7a542.png",
     "static/media/Conov2.jpg": "/static/media/Conov2.f833fd5cb379c970e352.jpg",
     "static/media/Alankrit Vyas Resume.pdf": "/static/media/Alankrit Vyas Resume.dd310318cbcfb7043fa0.pdf",
@@ -10,11 +10,11 @@
     "static/media/weather.jpg": "/static/media/weather.dec7d165a43cf755d07e.jpg",
     "static/media/Contact.avif": "/static/media/Contact.1ec566f11f4bc40b2458.avif",
     "index.html": "/index.html",
-    "main.f363151b.css.map": "/static/css/main.f363151b.css.map",
-    "main.67ab075e.js.map": "/static/js/main.67ab075e.js.map"
+    "main.acd7018b.css.map": "/static/css/main.acd7018b.css.map",
+    "main.782e886a.js.map": "/static/js/main.782e886a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f363151b.css",
-    "static/js/main.67ab075e.js"
+    "static/css/main.acd7018b.css",
+    "static/js/main.782e886a.js"
   ]
 }
