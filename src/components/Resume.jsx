@@ -59,7 +59,7 @@ const Resume2 = () => {
               <p>
                 <em>Dusane Infotech India Pvt Ltd.</em>
               </p>
-              <p>Front-End Developer</p>
+              <p>Junior Software Engineer</p>
             </div>
             <div className="resume__item">
               <h4>Web Development Intern</h4>
@@ -77,63 +77,26 @@ const Resume2 = () => {
               </p>
               <p>Basic Banking Website</p>
             </div>
-            <h3 className="resume__title">Certifications</h3>
+            <h3 className="resume__title">Projects</h3>
 
             <div className="resume__item">
-              <p>
-                <em>Angular - The Complete Guide (2023)</em>
+              <p>1.
+                 ToDo App Using MERN Stack
               </p>
-              <p>
-                <em>Introduction to UI Design</em>
+              <p>2. 
+                 Saarthi
               </p>
-              <p>
-                <em>Foundation of User Experince (UX) Design</em>
+              <p>3.
+                 Weather App using JavaScript
               </p>
-              <p>
-                <em>Build you portfolio website with HTML and CSS</em>
+              <p>4. 
+                 Todo App using JavaScript
               </p>
-              <p>
-                <em>Introduction to Structured Query Language (SQL)</em>
-              </p>
+              {/* <p>
+                Introduction to Structured Query Language (SQL)
+              </p> */}
             </div> 
 
-            {/* <div className="resume__item">
-              <h4>Treasurer</h4>
-              <h5>May 2021 - May 2022</h5>
-              <p>
-                <em>
-                  Litmus: The Writing, Debating and MUN society of Manipal
-                  University
-                </em>
-              </p>
-            </div> */}
-            {/* <div className="resume__item">
-              <h4>Treasurer</h4>
-              <h5>Jan 2022 - July 2022</h5>
-              <p>
-                <em>
-                  Panacea: The Computer and Communication Engineering Club
-                </em>
-              </p>
-            </div> */}
-            {/* <div className="resume__item">
-              <h4>Finance and Registration Team</h4>
-              <p>
-                <em>Cultural Night - Team Lead</em>
-              </p>
-              <p>
-                <em>MUJMUN 7.0</em>
-              </p>
-              <p>
-                <em>TedX MUJ</em>
-              </p>
-              <p>
-                <em>E-Conclave</em>
-              </p>
-              <p>
-                <em>Under 25</em>
-              </p>
-            </div> */}
           </div>
         </div>
       </section>

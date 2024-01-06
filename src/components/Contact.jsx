@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../assets/css/contact.css";
-import ContactImg from "../assets/images/Contact.jpg";
+import ContactImg from "../assets/images/Contact.avif";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { collection, addDoc } from "firebase/firestore";

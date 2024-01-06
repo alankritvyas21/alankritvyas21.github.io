@@ -17,11 +17,20 @@ const Projects = () => {
                   <img src={project.image} alt="" className="projects__img" />
                   <div className="projects__data">
                     <h3 className="projects__title">{project.title}</h3>
-
-                    <a href={project.link} className="projects__button" target="_blank" rel="noopener noreferrer">
-                      Demo
-                      <i className="bx bx-right-arrow-alt projects__button"></i>
-                    </a>
+                    {project.id !== 1 && (
+                      <a
+                        href={project.link}
+                        className="projects__button"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Demo
+                        <i className="bx bx-right-arrow-alt projects__button"></i>
+                      </a>
+                    )}
+                    {project.id === 1 && (
+                      <div className="projects__button">Coming Soon</div>
+                    )}
                   </div>
                 </div>
               </div>
