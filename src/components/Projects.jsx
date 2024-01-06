@@ -7,7 +7,7 @@ const Projects = () => {
     <>
       <section className="projects section" id="projects">
         <h2 className="section__title">Projects</h2>
-        <span className="section__subtitle">All Projects</span>
+        <span className="section__subtitle">Top Projects</span>
 
         <div className="projects__container container grid">
           {projectsData.map((project) => {

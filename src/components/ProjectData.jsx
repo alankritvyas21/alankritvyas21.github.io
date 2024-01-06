@@ -1,5 +1,5 @@
 import Weather from "../assets/images/weather.jpg"
-import ToDo from "../assets/images/Todo.jpg"
+import RecipeBook from "../assets/images/Recipe Book Home.png"
 import TodoMern from "../assets/images/ToDo Home.png"
 
 export const projectsData = [
@@ -17,8 +17,8 @@ export const projectsData = [
     },
     {
       id: 3,
-      image: ToDo,
-      title: "ToDo App",
-      link : "https://alankritvyas21.github.io/alankritvyas21.github.io-todoapp/",
+      image: RecipeBook,
+      title: "Recipe Book using Angular",
+      link : "https://angular-project-01-5aa73.web.app/",
     },
   ];
