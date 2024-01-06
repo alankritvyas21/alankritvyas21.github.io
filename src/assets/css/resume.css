@@ -68,6 +68,19 @@
   border: 2px solid var(--title-color-dark);
 }
 
+.resume__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: auto;
+}
+
+.resume__button a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
 /* Media queries */
 @media (max-width: 768px) {
   .resume__column {

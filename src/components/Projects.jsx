@@ -36,6 +36,15 @@ const Projects = () => {
               </div>
             );
           })}
+          <a
+            href="https://bento.me/alankritvyas"
+            className="projects__button more__btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            More Projects
+            <i className="bx bx-right-arrow-alt projects__button"></i>
+          </a>
         </div>
       </section>
     </>

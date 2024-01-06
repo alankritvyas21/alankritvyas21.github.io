@@ -2,18 +2,6 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   column-gap: 4rem;
-  animation: slideUp 2s ease-in-out;
-}
-
-@keyframes slideUp {
-  0% {
-    transform: translateY(100%);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-  
 }
 
 .about__img {

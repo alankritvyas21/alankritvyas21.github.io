@@ -80,23 +80,20 @@ const Resume2 = () => {
             <h3 className="resume__title">Projects</h3>
 
             <div className="resume__item">
-              <p>1.
-                 ToDo App Using MERN Stack
-              </p>
-              <p>2. 
-                 Saarthi
-              </p>
-              <p>3.
-                 Weather App using JavaScript
-              </p>
-              <p>4. 
-                 Todo App using JavaScript
-              </p>
+              <p>1. Recipe Book Using Angular</p>
+              <p>2. ToDo App Using MERN Stack</p>
+              <p>3. Saarthi</p>
+              <p>4. Weather App using JavaScript</p>
+              <p>5. Todo App using JavaScript</p>
               {/* <p>
                 Introduction to Structured Query Language (SQL)
               </p> */}
-            </div> 
-
+            </div>
+            <button className="button button--flex resume__button">
+              <a href="https://www.linkedin.com/in/alankritvyas/" target="_blank" rel="noopener noreferrer">
+                More <i className="uil uil-message contact__icons"></i>
+              </a>
+            </button>
           </div>
         </div>
       </section>

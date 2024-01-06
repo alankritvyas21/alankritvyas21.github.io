@@ -31,6 +31,14 @@
     column-gap: 0.25rem;
 }
 
+.projects__button:hover {
+    color: black;
+}
+
+.more__btn{
+  margin-left: 1rem;
+}
+
 @media (max-width: 992px) {
     .projects__container {
         grid-template-columns: repeat(1, max-content);
