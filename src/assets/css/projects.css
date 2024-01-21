@@ -6,7 +6,7 @@
 
 .projects__card {
   background-color: var(--fcontainer-color);
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border-color);
   padding: 1.25rem;
   border-radius: 1rem;
 }
@@ -32,7 +32,7 @@
 }
 
 .projects__button:hover {
-    color: black;
+    color: var(--hover-color);
 }
 
 .more__btn{

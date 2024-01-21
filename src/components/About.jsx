@@ -2,8 +2,10 @@ import React from "react";
 import "../assets/css/about.css";
 import AboutImg from "../assets/images/IMG_4035.png";
 import Resume from "../assets/Alankrit Vyas Resume.pdf"
+import { useTheme } from "../assets/js/themeContext";
 
 const About = () => {
+  const { darkMode } = useTheme();
   const handleDownload = () => {
     const pdfUrl = Resume;
 
@@ -18,7 +20,7 @@ const About = () => {
   };
   return (
     <>
-      <section className="about section" id="about">
+      <section className={`about section ${darkMode ? "dark-mode" : ""}`} id="about">
         <h2 className="section__title">About Me</h2>
         <span className="section__subtitle">Introduction</span>
 

@@ -1,11 +1,13 @@
 import React from "react";
 import "../assets/css/home.css";
+import { useTheme } from "../assets/js/themeContext";
 
 const Home = () => {
+  const { darkMode } = useTheme();
   return (
     <>
-      <section className="home section" id="home">
-        <div className="home__container container grid">
+      <section className={`home section ${darkMode ? "dark-mode" : ""}`} id="home">
+        <div className={`home__container container grid ${darkMode ? "dark-mode" : ""}`}>
           <div className="home__content grid">
             <div className="home__img"></div>
             <div className="home__social">

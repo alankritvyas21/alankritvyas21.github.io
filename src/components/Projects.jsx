@@ -1,11 +1,13 @@
 import React from "react";
 import "../assets/css/projects.css";
 import { projectsData } from "./ProjectData";
+import { useTheme } from "../assets/js/themeContext";
 
 const Projects = () => {
+  const { darkMode } = useTheme();
   return (
     <>
-      <section className="projects section" id="projects">
+      <section className={`projects section ${darkMode ? "dark-mode" : ""}`} id="projects">
         <h2 className="section__title">Projects</h2>
         <span className="section__subtitle">Top Projects</span>
 

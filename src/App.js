@@ -7,22 +7,25 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 import ScrollUp from "./components/ScrollUp";
+import { ThemeProvider } from "./assets/js/themeContext";
 
 function App() {
   return (
     <>
-      <Header />
+      <ThemeProvider>
+        <Header />
 
-      <main className="main">
-        <Home />
-        <About />
-        <Resume />
-        <Projects />
-        <Contact />
-      </main>
+        <main className="main">
+          <Home />
+          <About />
+          <Resume />
+          <Projects />
+          <Contact />
+        </main>
 
-      <Footer />
-      <ScrollUp />
+        <Footer />
+        <ScrollUp />
+      </ThemeProvider>
     </>
   );
 }

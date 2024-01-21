@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import "../assets/css/contact.css";
-import ContactImg from "../assets/images/Contact.avif";
+import ContactImg from "../assets/images/Contact.png";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../assets/js/contact";
+import { useTheme } from "../assets/js/themeContext";
 
 const Contact = () => {
+  const { darkMode } = useTheme();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -41,7 +43,7 @@ const Contact = () => {
 
   return (
     <>
-      <section className="contact section" id="contact">
+      <section className={`contact section ${darkMode ? "dark-mode" : ""}`} id="contact">
         <h2 className="section__title">Contact Me</h2>
         <span className="section__subtitle">Get in Touch</span>
 

@@ -1,10 +1,12 @@
 import React from "react";
-import "../assets/css/resume.css"; // Make sure to update the path to your CSS file
+import "../assets/css/resume.css"; 
+import { useTheme } from "../assets/js/themeContext";
 
 const Resume2 = () => {
+  const { darkMode } = useTheme();
   return (
     <>
-      <section className="skills section" id="resume">
+      <section className={`skills section ${darkMode ? "dark-mode" : ""}`} id="resume">
         <h2 className="section__title">Resume</h2>
         <span className="section__subtitle">Summary</span>
 

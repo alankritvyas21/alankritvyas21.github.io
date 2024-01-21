@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import "../assets/css/header.css";
+import { useTheme } from "../assets/js/themeContext";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
+  const { darkMode, toggleDarkMode } = useTheme();
 
   return (
-    <header className="header">
-      <nav className="nav container">
+    <header className={`header ${darkMode ? "dark-mode" : ""}`}>
+    <nav className={`nav container ${darkMode ? "dark-mode" : ""}`}>
         <a href="#home" className="nav__logo">
           Alankrit Vyas
         </a>
@@ -66,6 +68,12 @@ const Header = () => {
               >
                 <i className="uil uil-message nav__icons"></i>Contact
               </a>
+            </li>
+            <li className="nav__item">
+              <label className="toggle-switch">
+                <input type="checkbox" onChange={toggleDarkMode} />
+                <span className="switch" />
+              </label>
             </li>
           </ul>
 
