@@ -18,9 +18,9 @@
 }
 
 .resume__container {
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 2rem; 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
 
 .resume__column {
@@ -66,6 +66,10 @@
   top: 0;
   background: #fff;
   border: 2px solid var(--title-color-dark);
+}
+
+.resume__item__dark a {
+  color: var(--dark-title-color-dark);
 }
 
 .resume__button {

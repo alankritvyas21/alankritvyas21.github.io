@@ -37,11 +37,11 @@
   --dark-hover-color: rgba(255,255,255,0.3);
   --border-color: rgba(0,0,0,0.3);
   --dark-border-color: rgba(255,255,255,0.3);
-  --dark-body-color: #192734;
+  --dark-body-color: #181818;
   --dark-text-color: whitesmoke;
   --dark-title-color: whitesmoke;
   --dark-title-color-dark: whitesmoke;
-  --dark-container-color: hsl(218, 32%, 15%);
+  --dark-container-color: #111111;
   --dark-title-color-dark: #a4a4a4;
 }
 

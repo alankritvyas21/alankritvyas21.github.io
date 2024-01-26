@@ -38,7 +38,7 @@ const Projects = () => {
               </div>
             );
           })}
-          <a
+          {/* <a
             href="https://bento.me/alankritvyas"
             className="projects__button more__btn"
             target="_blank"
@@ -46,7 +46,7 @@ const Projects = () => {
           >
             More Projects
             <i className="bx bx-right-arrow-alt projects__button"></i>
-          </a>
+          </a> */}
         </div>
       </section>
     </>

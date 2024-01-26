@@ -12,7 +12,7 @@ const Resume2 = () => {
 
         <div className="resume__container container grid">
           <div className="resume__column">
-            <div className="resume__item">
+            <div className={`resume__item ${darkMode ? "resume__item__dark" : ""}`}>
               <h4>Alankrit Vyas</h4>
               <p>
                 <em>Web Developer and UI/UX designer</em>
