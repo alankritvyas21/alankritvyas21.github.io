@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac0e1fca.css",
-    "main.js": "/static/js/main.70343fdd.js",
+    "main.css": "/static/css/main.5e6cd91f.css",
+    "main.js": "/static/js/main.21155802.js",
     "static/media/IMG_4035.png": "/static/media/IMG_4035.5b8a251f06c62ec7a542.png",
-    "static/media/123Z_2101.w020.n001.951B.p15.951.jpg": "/static/media/123Z_2101.w020.n001.951B.p15.951.990e4263c3ef42e35320.jpg",
-    "static/media/4937947.jpg": "/static/media/4937947.b8a5850102e84c1396d6.jpg",
+    "static/media/Nightscape.jpg": "/static/media/Nightscape.229d09d7abe1682749dc.jpg",
+    "static/media/Morning.jpg": "/static/media/Morning.b8a5850102e84c1396d6.jpg",
     "static/media/Conov2.jpg": "/static/media/Conov2.f833fd5cb379c970e352.jpg",
     "static/media/Contact.png": "/static/media/Contact.4a3a6d9c89a1828816b1.png",
     "static/media/Alankrit Vyas Resume.pdf": "/static/media/Alankrit Vyas Resume.dd310318cbcfb7043fa0.pdf",
@@ -12,11 +12,11 @@
     "static/media/ToDo Home.png": "/static/media/ToDo Home.3de9921c79b7caf6ec35.png",
     "static/media/weather.jpg": "/static/media/weather.dec7d165a43cf755d07e.jpg",
     "index.html": "/index.html",
-    "main.ac0e1fca.css.map": "/static/css/main.ac0e1fca.css.map",
-    "main.70343fdd.js.map": "/static/js/main.70343fdd.js.map"
+    "main.5e6cd91f.css.map": "/static/css/main.5e6cd91f.css.map",
+    "main.21155802.js.map": "/static/js/main.21155802.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac0e1fca.css",
-    "static/js/main.70343fdd.js"
+    "static/css/main.5e6cd91f.css",
+    "static/js/main.21155802.js"
   ]
 }
