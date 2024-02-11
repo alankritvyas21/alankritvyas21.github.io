@@ -1,8 +1,9 @@
 import React from "react";
 import "../assets/css/about.css";
 import AboutImg from "../assets/images/IMG_4035.png";
-import Resume from "../assets/Alankrit Vyas Resume.pdf"
+import Resume from "../assets/Alankrit Vyas Resume.pdf";
 import { useTheme } from "../assets/js/themeContext";
+import qrcode from "../assets/images/CV QR.png";
 
 const About = () => {
   const { darkMode } = useTheme();
@@ -20,7 +21,10 @@ const About = () => {
   };
   return (
     <>
-      <section className={`about section ${darkMode ? "dark-mode" : ""}`} id="about">
+      <section
+        className={`about section ${darkMode ? "dark-mode" : ""}`}
+        id="about"
+      >
         <h2 className="section__title">About Me</h2>
         <span className="section__subtitle">Introduction</span>
 
@@ -59,11 +63,22 @@ const About = () => {
               top-notch outcomes, whether I am working on large-scale projects
               or creating tiny, dynamic sites.
             </p>
-
-            <button onClick={handleDownload} className="button button--flex">
-              Download CV
-              <i className="uil uil-download-alt button__icon"></i>
-            </button>
+            <div className="about__download">
+              <div className="about__qrimg">
+                <img src={qrcode} alt="QR Code" />
+                <p>
+                  Scan QR to <br /> view CV
+                </p>
+              </div>
+              <p>
+                <hr />
+                OR
+              </p>
+              <button onClick={handleDownload} className="button button--flex">
+                Download CV
+                <i className="uil uil-download-alt button__icon"></i>
+              </button>
+            </div>
           </div>
         </div>
       </section>
