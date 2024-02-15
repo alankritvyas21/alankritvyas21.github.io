@@ -67,6 +67,17 @@
   margin-top: -1.5rem;
 }
 
+.downloading {
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: var(--text-color);
+  cursor: default;
+}
+
+button.downloading:hover {
+  background-color: var(--container-color);
+}
+
 @media (max-width: 992px) {
   .about__container {
     grid-template-columns: 1fr;

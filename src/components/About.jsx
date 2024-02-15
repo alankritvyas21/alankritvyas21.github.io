@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../assets/css/about.css";
 import AboutImg from "../assets/images/IMG_4035.png";
 import Resume from "../assets/Alankrit Vyas Resume.pdf";
@@ -7,7 +7,30 @@ import qrcode from "../assets/images/CV QR.png";
 
 const About = () => {
   const { darkMode } = useTheme();
+  const [progress, setProgress] = useState(0);
+  const [downloading, setDownloading] = useState(false);
+
   const handleDownload = () => {
+    setDownloading(true);
+    setProgress(0);
+
+    const downloadInterval = setInterval(() => {
+      setProgress((prevProgress) => {
+        if (prevProgress >= 100) {
+          clearInterval(downloadInterval);
+          setTimeout(() => {
+            setDownloading(false);
+            startFileDownload();
+            setProgress(0);
+          }, 500);
+          return 0;
+        }
+        return prevProgress + 10;
+      });
+    }, 500);
+  };
+
+  const startFileDownload = () => {
     const pdfUrl = Resume;
 
     const anchor = document.createElement("a");
@@ -19,6 +42,7 @@ const About = () => {
     anchor.click();
     document.body.removeChild(anchor);
   };
+
   return (
     <>
       <section
@@ -74,8 +98,19 @@ const About = () => {
                 <hr />
                 OR
               </p>
-              <button onClick={handleDownload} className="button button--flex">
-                Download CV
+              <button
+                onClick={handleDownload}
+                className={`button button--flex ${
+                  downloading ? "downloading" : ""
+                }`}
+              >
+                <span className="button__text">
+                  {downloading ? "" : "Download CV"}
+                </span>
+                {downloading && (
+                  <span className="progress-text">{`${progress}%`}</span>
+                )}
+
                 <i className="uil uil-download-alt button__icon"></i>
               </button>
             </div>
