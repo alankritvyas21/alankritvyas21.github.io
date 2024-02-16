@@ -43,6 +43,8 @@
   --dark-title-color-dark: whitesmoke;
   --dark-container-color: #111111;
   --dark-title-color-dark: #a4a4a4;
+  --box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  --dark-box-shadow:  rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;
 }
 
 .dark-mode{
@@ -54,6 +56,8 @@
   --title-color-dark: var(--dark-title-color-dark);
   --border-color: var(--dark-border-color);
   --hover-color: var(--dark-hover-color);
+  --box-shadow: var(--dark-box-shadow);
+  --about-box-shadow: var(--about-box-shadow-dark);
 }
 
 @media screen and (max-width: 992px) {
@@ -111,6 +115,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+  box-shadow: var(--box-shadow);
 }
 
 img {
@@ -159,6 +164,7 @@ img {
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  box-shadow: var(--box-shadow);
 }
 
 .button:hover {

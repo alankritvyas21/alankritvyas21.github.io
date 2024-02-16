@@ -8,6 +8,7 @@
   width: 400px;
   border-radius: 1.5rem;
   justify-self: center;
+  box-shadow: var(--box-shadow);
 }
 
 .about__info {
