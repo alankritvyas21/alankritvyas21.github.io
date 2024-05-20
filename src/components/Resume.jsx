@@ -6,7 +6,7 @@ const Resume2 = () => {
   // const { darkMode } = useTheme();
   return (
     <>
-      <section className="skills section">
+      <section className="skills section" id="resume">
       <h2 className="section__title">Resume</h2>
       <span className="section__subtitle">Summary</span>
 
