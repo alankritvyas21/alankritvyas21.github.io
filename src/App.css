@@ -12,6 +12,7 @@
   --container-color: #fff;
   --body-font: "Poppins", sans-serif;
   --big-font-size: 3.5rem;
+  --medium-font-size: 3rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
@@ -34,20 +35,22 @@
   --z-fixed: 100;
   --z-modal: 1000;
   --hover-color: #000;
-  --dark-hover-color: rgba(255,255,255,0.3);
-  --border-color: rgba(0,0,0,0.3);
-  --dark-border-color: rgba(255,255,255,0.3);
+  --dark-hover-color: rgba(255, 255, 255, 0.3);
+  --border-color: rgba(0, 0, 0, 0.3);
+  --dark-border-color: rgba(255, 255, 255, 0.3);
   --dark-body-color: #181818;
   --dark-text-color: whitesmoke;
   --dark-title-color: whitesmoke;
   --dark-title-color-dark: whitesmoke;
   --dark-container-color: #111111;
   --dark-title-color-dark: #a4a4a4;
-  --box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  --dark-box-shadow:  rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;
+  --box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  --dark-box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;
 }
 
-.dark-mode{
+.dark-mode {
   --title-color: var(--dark-title-color);
   --title-color-dark: var(--dark-title-color-dark);
   --text-color: var(--dark-text-color);
@@ -71,7 +74,6 @@
     --smaller-font-size: 0.75rem;
   }
 }
-
 
 * {
   margin: 0;
@@ -127,6 +129,7 @@ img {
   padding: 6rem 0 2rem;
   height: fit-content;
   background-color: var(--body-color);
+  overflow-x: hidden;
 }
 
 .section__title {
@@ -147,16 +150,17 @@ img {
 }
 
 .container {
-  max-width: 968px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
 .grid {
   display: grid;
   gap: 1.5rem;
 }
-
+/* 
 .button {
   display: inline-block;
   background-color: var(--title-color);
@@ -169,6 +173,8 @@ img {
 
 .button:hover {
   background-color: var(--title-color-dark);
+  text-decoration: none;
+  color: var(--container-color);
 }
 
 .button__icon {
@@ -178,12 +184,95 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+} */
+
+.button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #4070f4;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #4070f4;
+}
+
+.button:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #70bdca;
+  box-shadow: 4px 5px 17px -4px #4070f4;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #4070f4;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.button:hover::before {
+  width: 250%;
+}
+
+.container_mouse {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mouse-btn {
+  /* margin: 10px auto; */
+  width: 30px;
+  height: 60px;
+  border: 3px solid rgba(122, 122, 124, 0.918);
+  border-radius: 20px;
+  display: flex;
+}
+
+.mouse-scroll {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: linear-gradient(
+    170deg,
+    rgba(122, 122, 124, 0.918),
+    rgb(123, 124, 124)
+  );
+  border-radius: 50%;
+  margin: auto;
+  animation: scrolling 1s linear infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(15px);
+  }
 }
 
 @media screen and (max-width: 992px) {
   .container {
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
+    /* margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5); */
   }
 
   .button {
@@ -197,10 +286,9 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-
   .section {
-    padding: 2rem 0 4rem;
-    height: fit-content ;
+    /* padding: 2rem; */
+    height: fit-content;
   }
 
   .section__subtitle {

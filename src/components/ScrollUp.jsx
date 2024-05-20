@@ -1,9 +1,9 @@
 import React from 'react'
 import "../assets/css/scrollup.css"
-import { useTheme } from '../assets/js/themeContext';
+// import { useTheme } from '../assets/js/themeContext';
 
 const ScrollUp = () => {
-  const { darkMode } = useTheme();
+  // const { darkMode } = useTheme();
     window.addEventListener('scroll', function () {
         const scrollup = document.querySelector('.scrollup');
         if (this.scrollY >= 560) {
@@ -15,7 +15,7 @@ const ScrollUp = () => {
     })
   return (
    <>
-    <a href="#home" className={`scrollup ${darkMode ? "dark-mode" : ""}`}>
+    <a href="#home" className="scrollup">
         <i className="uil uil-arrow-up scrollup__icon"></i>
     </a>
    </>

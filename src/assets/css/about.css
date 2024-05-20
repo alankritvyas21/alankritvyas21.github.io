@@ -12,17 +12,59 @@
 }
 
 .about__info {
-  grid-template-columns: repeat(3, 140px);
-  gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
   margin-bottom: var(--mb-2);
 }
 
 .about__box {
-  background-color: var(--container-color);
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
+  padding: 1rem 1.25rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.75rem;
   text-align: center;
-  padding: 1rem 1.25rem;
+  width: 160px;
+  height: 125px;
+}
+
+.about__box::after {
+  position: absolute;
+  content: "";
+  width: 0.25rem;
+  inset: 0.65rem auto 0.65rem 0.5rem;
+  border-radius: 0.125rem;
+  background: var(--gradient);
+  z-index: 4;
+}
+
+.notiglow {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(
+    circle closest-side at center,
+    var(--text-color),
+    transparent
+  );
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.notiglow {
+  z-index: 3;
+}
+
+.about__box:hover .notiglow {
+  opacity: 0.1;
 }
 
 .about__icon {
@@ -109,7 +151,20 @@ button.downloading:hover {
 
 @media (max-width: 576px) {
   .about__info {
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about__box{
+    width: 200px;
+    height: 150px;
+  }
+  .about__subtitle{
+    font-size: var(--normal-font-size);
+    margin: 20px 0 0 0;
   }
 
   .about__description {

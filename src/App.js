@@ -7,12 +7,16 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 import ScrollUp from "./components/ScrollUp";
-import { ThemeProvider } from "./assets/js/themeContext";
+// import { ThemeProvider } from "./assets/js/themeContext";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  AOS.init();
+  AOS.refresh();
   return (
     <>
-      <ThemeProvider>
+      {/* <ThemeProvider> */}
         <Header />
 
         <main className="main">
@@ -25,7 +29,7 @@ function App() {
 
         <Footer />
         <ScrollUp />
-      </ThemeProvider>
+      {/* </ThemeProvider> */}
     </>
   );
 }
