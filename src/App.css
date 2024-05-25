@@ -34,6 +34,20 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
+
+  --button-color: #4070f4;
+  --button-outline: #70bdca;
+
+  --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
+
+  --instagram-button:#e4405f;
+  --email-button:#ea4335;
+  --github-button:#333;
+  --bento-button:#f48024;
+  --linkedin-button:#0077b5;
+
+  --subtitle-color: #6c757d;
+
   --hover-color: #000;
   --dark-hover-color: rgba(255, 255, 255, 0.3);
   --border-color: rgba(0, 0, 0, 0.3);
@@ -194,19 +208,19 @@ img {
   letter-spacing: 5px;
   text-transform: uppercase;
   cursor: pointer;
-  color: #4070f4;
+  color: var(--button-color);
   transition: all 1000ms;
   font-size: 15px;
   position: relative;
   overflow: hidden;
-  outline: 2px solid #4070f4;
+  outline: 2px solid var(--button-color);
 }
 
 .button:hover {
-  color: #ffffff;
+  color: var(--container-color);
   transform: scale(1.1);
-  outline: 2px solid #70bdca;
-  box-shadow: 4px 5px 17px -4px #4070f4;
+  outline: 2px solid var(--button-outline);
+  box-shadow: 4px 5px 17px -4px var(--button-color);
 }
 
 .button::before {
@@ -216,7 +230,7 @@ img {
   top: 0;
   width: 0;
   height: 100%;
-  background-color: #4070f4;
+  background-color: var(--button-color);
   transform: skewX(45deg);
   z-index: -1;
   transition: width 1000ms;

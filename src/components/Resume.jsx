@@ -50,12 +50,14 @@ const Resume2 = () => {
             <h4>Web Development Intern</h4>
             <h5>Jan 2023 - July 2023</h5>
             <p><em>Rawattech Consulting and Solutions Private Ltd.</em></p>
+            <p>Front-End Developer</p>
             <p>MERN Stack Developer</p>
           </div>
           <div className="resume__item" data-aos="fade-up" data-aos-delay="300">
             <h4>Web Development Intern</h4>
             <h5>Aug 2021 - Sep 2021</h5>
             <p><em>The Sparks Foundation</em></p>
+            <p>Front-End Developer</p>
             <p>Basic Banking Website</p>
           </div>
         </div>

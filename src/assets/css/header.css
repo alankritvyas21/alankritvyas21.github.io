@@ -43,9 +43,12 @@
   display: none;
 }
 
-.active-link,
-.nav__link:hover {
+.active-link {
   color: var(--title-color-dark);
+}
+
+.active-link:hover, .nav__link:hover {
+  border-bottom: 1px solid var(--button-color);
 }
 
 .nav__list:last-child {
@@ -83,14 +86,14 @@
   top: 2px;
   width: 26px;
   height: 26px;
-  background-color: #6cb3f9;
+  background-color: var(--button-color);
   border-radius: 50%;
   transition: transform 0.3s ease;
 }
 
 .toggle-switch input[type="checkbox"]:checked + .switch::before {
   transform: translateX(30px);
-  background-color: #6699cc;
+  background-color: var(--button-color);
 }
 
 .toggle-switch input[type="checkbox"]:checked + .switch {

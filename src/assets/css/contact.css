@@ -34,7 +34,6 @@
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
-  --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
   padding: 1rem 1.25rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.75rem;
@@ -91,6 +90,11 @@
   font-size: var(--small-font-size);
 }
 
+.contact__subtitle a {
+  text-decoration: none;
+  color: var(--title-color);
+}
+
 .contact__button {
   height: 3rem;
   width: auto;
@@ -126,7 +130,7 @@
 }
 
 .contact__form-input:focus {
-  border: 2px solid #60a7ff;
+  border: 2px solid var(--button-color);
 }
 
 .contact__form-tag {

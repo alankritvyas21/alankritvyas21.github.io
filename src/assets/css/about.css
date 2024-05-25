@@ -26,7 +26,6 @@
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
-  --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
   padding: 1rem 1.25rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.75rem;
@@ -160,11 +159,11 @@ button.downloading:hover {
 
   .about__box{
     width: 200px;
-    height: 150px;
+    height: 130px;
   }
   .about__subtitle{
     font-size: var(--normal-font-size);
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
   }
 
   .about__description {

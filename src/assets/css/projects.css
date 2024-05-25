@@ -36,7 +36,7 @@
 }
 
 .projects__card:hover {
-  box-shadow: 0 0 20px #4070f4;
+  box-shadow: 0 0 20px var(--button-color);
 }
 
 .projects__container {

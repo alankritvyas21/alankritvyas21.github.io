@@ -6,11 +6,11 @@ const Footer = () => {
   // const { darkMode } = useTheme();
   return (
     <>
-      <footer className="footer">
-        <div className="footer__container container">
+      <footer className="footer" data-aos="fade-up" data-aos-delay="300">
+        <div className="footer__container container" data-aos="fade-up" data-aos-delay="500">
           <h1 className="footer__title">Alankrit Vyas</h1>
 
-          <ul className="footer__list">
+          <ul className="footer__list" data-aos="fade-up" data-aos-delay="500">
             <li>
               <a href="#about" className="footer__link">
                 About
@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="footer__social">
             <a
               href="https://bento.me/alankritvyas"
-              className="footer__social-link"
+              className="bento"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -40,7 +40,7 @@ const Footer = () => {
 
             <a
               href="mailto:av3h.vyas@gmail.com"
-              className="footer__social-link"
+              className="email"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -49,7 +49,7 @@ const Footer = () => {
 
             <a
               href="https://www.instagram.com/alankritvyas/"
-              className="footer__social-link"
+              className="instagram"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -58,7 +58,7 @@ const Footer = () => {
 
             <a
               href="https://www.linkedin.com/in/alankrit-vyas-667063190/"
-              className="footer__social-link"
+              className="linkedin"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -67,21 +67,13 @@ const Footer = () => {
 
             <a
               href="https://github.com/alankritvyas21"
-              className="footer__social-link"
+              className="github"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="uil uil-github"></i>
             </a>
 
-            <a
-              href="https://www.facebook.com/profile.php?id=100007428494855"
-              className="footer__social-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="uil uil-facebook"></i>
-            </a>
           </div>
         </div>
       </footer>

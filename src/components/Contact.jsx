@@ -79,9 +79,9 @@ const Contact = () => {
                   data-aos-delay="300"
                 >
                   <div className="notiglow"></div>
-                  <i className="uil uil-award contact__icon"></i>
-                  <h3 className="contact__title">Certifications</h3>
-                  <span className="contact__subtitle">20+</span>
+                  <i className="uil uil-linkedin contact__icon"></i>
+                  <h3 className="contact__title">Linked In</h3>
+                  <span className="contact__subtitle">Alankrit Vyas</span>
                 </div>
               </div>
             </div>

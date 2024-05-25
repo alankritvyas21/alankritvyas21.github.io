@@ -43,23 +43,23 @@
 }
 
 .instagram i:hover {
-  color: #e4405f;
+  color: var(--instagram-button);
 }
 
 .email i:hover {
-  color: #ea4335;
+  color: var(--email-button);
 }
 
 .github i:hover {
-  color: #333;
+  color: var(--github-button);
 }
 
 .bento i:hover {
-  color: #f48024;
+  color: var(--bento-button);
 }
 
 .linkedin i:hover {
-  color: #0077b5;
+  color: var(--linkedin-button);
 }
 
 .home__title {
@@ -69,18 +69,17 @@
   overflow: hidden;
   border-right: 2px solid;
   width: fit-content;
-  animation: typing 6s steps(12, end) infinite,
+  animation: typing 3s steps(30, end),
     blink-caret 0.75s step-end infinite;
   height: 65px;
-  color: #4070f4;
+  color: var(--button-color);
 }
 
 @keyframes typing {
-  0%,
-  100% {
+  0%{
     width: 0;
   }
-  50% {
+  100% {
     width: 11ch;
   }
 }

@@ -19,6 +19,7 @@
 
 .footer__link:hover {
   color: var(--title-color-dark);
+  border-bottom: 1px solid var(--button-color);
 }
 
 .footer__list {
@@ -32,6 +33,39 @@
   display: flex;
   justify-content: center;
   column-gap: 1.25rem;
+}
+
+
+.instagram,
+.email,
+.github,
+.bento,
+.linkedin {
+  color: var(--title-color);
+  font-size: 1.5rem;
+  padding: 0.2rem;
+  display: inline-flex;
+  margin-bottom: 2rem;
+}
+
+.instagram i:hover {
+  color: var(--instagram-button);
+}
+
+.email i:hover {
+  color: var(--email-button);
+}
+
+.github i:hover {
+  color: var(--github-button);
+}
+
+.bento i:hover {
+  color: var(--bento-button);
+}
+
+.linkedin i:hover {
+  color: var(--linkedin-button);
 }
 
 .footer__social-link {
