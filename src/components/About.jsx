@@ -3,45 +3,10 @@ import "../assets/css/about.css";
 import AboutImg from "../assets/images/IMG_4035.png";
 import Resume from "../assets/Alankrit Vyas Resume.pdf";
 // import { useTheme } from "../assets/js/themeContext";
-// import qrcode from "../assets/images/CV QR.png";
+
 
 const About = () => {
   // const { darkMode } = useTheme();
-  // const [progress, setProgress] = useState(0);
-  // const [downloading, setDownloading] = useState(false);
-
-  // const handleDownload = () => {
-  //   setDownloading(true);
-  //   setProgress(0);
-
-  //   const downloadInterval = setInterval(() => {
-  //     setProgress((prevProgress) => {
-  //       if (prevProgress >= 100) {
-  //         clearInterval(downloadInterval);
-  //         setTimeout(() => {
-  //           setDownloading(false);
-  //           startFileDownload();
-  //           setProgress(0);
-  //         }, 500);
-  //         return 0;
-  //       }
-  //       return prevProgress + 10;
-  //     });
-  //   }, 500);
-  // };
-
-  const startFileDownload = () => {
-    const pdfUrl = Resume;
-
-    const anchor = document.createElement("a");
-    anchor.href = pdfUrl;
-    anchor.target = "_blank";
-    anchor.download = "Alankrit Vyas Resume";
-
-    document.body.appendChild(anchor);
-    anchor.click();
-    document.body.removeChild(anchor);
-  };
 
   return (
     <>
@@ -108,9 +73,7 @@ const About = () => {
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <span className="button__text" onClick={startFileDownload}>
-                  Download CV
-                </span>
+                <a className="button__text" href={Resume} download="Alankrit Vyas Resume.pdf">Download CV</a>
                 <i className="uil uil-download-alt button__icon"></i>
               </button>
             </div>

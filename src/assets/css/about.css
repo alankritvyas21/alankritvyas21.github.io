@@ -120,6 +120,17 @@ button.downloading:hover {
   background-color: var(--container-color);
 }
 
+.button__text, .button__text:visited {
+  text-decoration: none; 
+} 
+
+.button a:hover {
+  color: var(--container-color);
+  transform: scale(1.1);
+  outline: 2px solid var(--button-outline);
+  box-shadow: 4px 5px 17px -4px var(--button-color);
+}
+
 @media (max-width: 992px) {
   .about__container {
     grid-template-columns: 1fr;

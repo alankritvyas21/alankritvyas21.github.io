@@ -69,7 +69,7 @@
 .toggle-switch .switch {
   position: absolute;
   cursor: pointer;
-  background-image: url("../images/Morning.jpg");
+  /* background-image: url("../images/Morning.jpg"); */
   background-size: contain;
   border-radius: 30px;
   top: 0;
@@ -97,7 +97,7 @@
 }
 
 .toggle-switch input[type="checkbox"]:checked + .switch {
-  background-image: url("../images/Nightscape.jpg");
+  /* background-image: url("../images/Nightscape.jpg"); */
   background-size: contain;
 }
 

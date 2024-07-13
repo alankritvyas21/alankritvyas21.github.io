@@ -3,12 +3,10 @@
 :root {
   --header-height: 3rem;
   /*Color mode HSL(hue, saturation, lightness)*/
-  --hue: 0;
-  --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --title-color: #333333;
+  --title-color-dark: #000000;
+  --text-color: #757575;
+  --body-color: #fafafa;
   --container-color: #fff;
   --body-font: "Poppins", sans-serif;
   --big-font-size: 3.5rem;
