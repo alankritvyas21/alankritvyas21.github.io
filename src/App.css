@@ -189,6 +189,11 @@ img {
   color: black; 
 }
 
+.button:disabled, .button:hover:disabled {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+}
+
 .button:hover {
   background-color: var(--button-color);
   color: var(--container-color);

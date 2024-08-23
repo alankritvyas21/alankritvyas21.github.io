@@ -188,3 +188,7 @@
     width: 300px;
   }
 }
+
+.Toastify__close-button {
+  box-shadow: none !important;
+}

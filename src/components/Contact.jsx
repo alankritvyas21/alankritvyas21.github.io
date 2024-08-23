@@ -28,11 +28,16 @@ const Contact = () => {
 
     try {
       await addDoc(userData, {
-        Firstname: name,
+        Name: name,
         Email: email,
         Subject: subject,
         Message: message,
       });
+
+      setName("");
+      setEmail("");
+      setSubject("");
+      setMessage("");
 
       toast.success("Message Sent Successfully");
       document.getElementById("myForm").reset();
