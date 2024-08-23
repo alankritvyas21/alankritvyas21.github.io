@@ -1,0 +1,118 @@
+.resume {
+  color: var(--title-color);
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+.resume__title {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-medium);
+  color: var(--button-color);
+  margin-bottom: 10px;
+}
+
+.resume-subtitle {
+  font-size: var(--normal-font-size);
+  color: var(--subtitle-color);
+  display: block;
+  margin-bottom: var(--mb-1);
+}
+
+.resume__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.resume__column {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.resume__item {
+  padding: 20px 30px;
+  position: relative;
+  /* margin-bottom: 20px; */
+  color: var(--title-color);
+  opacity: 90%;
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+  position: relative;
+  overflow: hidden;
+}
+
+.resume__item h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.resume__item h5 {
+  font-size: var(--small-font-size);
+  /* padding: 5px; */
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.resume__item p em {
+  font-style: italic;
+}
+
+.resume__item::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  left: 2.5px;
+  top: 0px;
+  background: var(--container-color);
+  border: 2px solid var(--button-color);
+  z-index: 1000;
+}
+
+.resume__item::after {
+  position: absolute;
+  content: "";
+  width: 0.15rem;
+  inset: 0.65rem auto 0.65rem 0.5rem;
+  border-radius: 0.125rem;
+  background: var(--button-color);
+  z-index: 4;
+  height: 100%;
+}
+
+/* .resume__item:hover {
+  box-shadow: 0 0 20px rgba(9, 117, 241, 0.8);
+  border-color: #0974f1;
+} */
+
+.resume__item__dark a {
+  color: var(--dark-title-color-dark);
+}
+
+.resume__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 10rem;
+}
+
+.resume__button a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .resume__column {
+    width: 100%;
+  }
+  .resume__container {
+    grid-template-columns: 1fr;
+  }
+}
