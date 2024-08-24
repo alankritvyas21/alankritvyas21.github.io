@@ -31,7 +31,7 @@
 }
 
 .resume__item {
-  padding: 20px 30px;
+  /* padding: 20px 30px; */
   position: relative;
   /* margin-bottom: 20px; */
   color: var(--title-color);
@@ -43,10 +43,23 @@
   overflow: hidden;
 }
 
+.resume__item .resume__inner__data {
+  margin: 20px 30px;
+}
+
 .resume__item h4 {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 10px;
+}
+
+.resume__item .title {
+  background: var(--button-color);
+  width: fit-content;
+  margin: 0 30px;
+  padding: 5px 30px;
+  color: var(--container-color);
+  font-weight: 300;
+  border-radius: 10px 5px 10px 5px;
 }
 
 .resume__item h5 {
@@ -95,9 +108,24 @@
 }
 
 .resume__inner__data {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.05);
   padding: 20px;
   border-radius: 15px
+}
+
+.tech {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.projects {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin: 10px 0 0 0;
+}
+
+.resume__inner__data ul {
+  padding: 0 20px;
 }
 
 .resume__button {
