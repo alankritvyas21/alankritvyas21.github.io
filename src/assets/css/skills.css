@@ -85,10 +85,17 @@
 }
 
 @media screen and (max-width: 992px) {
+  .skills_container {
+    gap: 1rem;
+  }
 	.progressBarContainer {
+		height: 15px;
+  }
+  .progressBarValue {
 		height: 5px;
-	  }
-	  .progressBarValue {
-		height: 5px;
-	  }
+  }
+
+  .progressBarValueData {
+    display: none;
+  }
 }
