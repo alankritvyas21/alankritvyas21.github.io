@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/css/about.css";
-import AboutImg from "../assets/images/IMG_4035.png";
+import AboutImg from "../assets/images/av-and.png";
 import Resume from "../assets/Alankrit Vyas Resume.pdf";
 // import { useTheme } from "../assets/js/themeContext";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/css/home.css";
 // import { useTheme } from "../assets/js/themeContext";
-import mainImg from "../assets/images/av-and.png";
+import mainImg from "../assets/images/Alankrit_hampi.jpg";
 
 const Home = () => {
   // const { darkMode } = useTheme();
