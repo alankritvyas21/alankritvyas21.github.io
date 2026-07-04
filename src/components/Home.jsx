@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/css/home.css";
 // import { useTheme } from "../assets/js/themeContext";
-import mainImg from "../assets/images/Conov2.jpg";
+import mainImg from "../assets/images/20250921_112822.jpg";
 
 const Home = () => {
   // const { darkMode } = useTheme();
