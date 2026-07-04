@@ -1,3 +1,6 @@
 [0823/232633.474:ERROR:crashpad_client_win.cc(810)] not connected
+<<<<<<< HEAD
 [0824/130128.872:ERROR:crashpad_client_win.cc(810)] not connected
 [0824/130128.969:ERROR:crashpad_client_win.cc(810)] not connected
+=======
+>>>>>>> fcabac016618a58b8e6ba45d47c6f2b04c3fd136

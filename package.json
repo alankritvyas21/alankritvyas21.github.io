@@ -9,6 +9,10 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "firebase": "^10.1.0",
+<<<<<<< HEAD
+=======
+    "gh-pages": "^5.0.0",
+>>>>>>> fcabac016618a58b8e6ba45d47c6f2b04c3fd136
     "react": "^18.2.0",
     "react-animate-on-scroll": "^2.1.9",
     "react-dom": "^18.2.0",
@@ -44,7 +48,11 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.3.0"
+=======
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+>>>>>>> fcabac016618a58b8e6ba45d47c6f2b04c3fd136
   }
 }
