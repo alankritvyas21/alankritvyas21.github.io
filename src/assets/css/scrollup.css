@@ -1,0 +1,79 @@
+.scrollup {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: var(--button-outline); */
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: fixed;
+  right: 2.5rem;
+  bottom: -20%;
+}
+
+.scrollup__icon {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.scrollup:hover {
+  width: 140px;
+  border-radius: 50px;
+  transition-duration: 0.3s;
+  background-color: var(--button-color);
+  align-items: center;
+}
+
+.scrollup::before {
+    position: absolute;
+    bottom: -20px;
+    content: "Back to Top";
+    color: white;
+    /* transition-duration: .3s; */
+    font-size: 0px;
+  }
+  
+  .scrollup:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    bottom: unset;
+    /* transform: translateY(-30px); */
+    transition-duration: 0.3s;
+  }
+.scrollup:hover .scrollup__icon {
+  transition-duration: 0.3s;
+  transform: translateY(-200%);
+}
+
+.show-scroll {
+  bottom: 3rem;
+}
+
+@media (max-width: 992px) {
+  .scrollup {
+    right: 1.5rem;
+    padding: 0.25rem 0.4rem;
+  }
+
+  .scrollup__icon {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .show-scroll {
+    bottom: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .show-scroll {
+    right: 2.5rem;
+  }
+}

@@ -1,0 +1,125 @@
+.projects__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: var(--fcontainer-color);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  border: 1px solid var(--border-color);
+}
+
+.projects__data {
+  width: 100%;
+  text-align: center;
+}
+
+.projects__data a {
+  width: 50%;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+
+.projects__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  color: var(--text-color);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.projects__content .heading {
+  font-weight: 400;
+  font-size: var(--h3-font-size);
+}
+
+.projects__content .button {
+  padding: 0.5rem;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.projects__card:hover {
+  border: 1px solid var(--button-color);
+}
+
+.projects__container {
+  grid-template-columns: repeat(3, max-content);
+  gap: 3rem;
+  justify-content: center;
+}
+
+/* .projects__card {
+  background-color: var(--fcontainer-color);
+  border: 1px solid var(--border-color);
+  padding: 1.25rem;
+  border-radius: 1rem;
+} */
+
+.projects__img {
+  width: 300px;
+  border-radius: 1rem;
+  margin-bottom: var(--mb-1);
+}
+
+.projects__title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-5);
+}
+
+.projects__button {
+  color: var(--text-color);
+  font-size: var(--small-font-size);
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
+}
+
+.projects__button:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.more__btn {
+  margin-left: 1rem;
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .projects__container {
+    grid-template-columns: repeat(2, max-content);
+  }
+  
+}
+
+@media (max-width: 992px) {
+  .projects__container {
+    grid-template-columns: repeat(1, max-content);
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects__card {
+    width: 100%;
+    max-width: 350px;
+    max-height: 400px;
+  }
+
+  .projects__img {
+    width: 100%;
+    max-width: 275px;
+  }
+  
+}
